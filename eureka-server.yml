@@ -1,2 +1,5 @@
+security:
+  basic:
+    enabled: false
 hello:
   message: Hello Eureka!!
