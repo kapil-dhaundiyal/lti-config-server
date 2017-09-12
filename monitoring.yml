@@ -1,0 +1,5 @@
+
+turbine:
+  appConfig: gateway,lti-studio-sc-employee-service
+  aggregator:
+    clusterConfig: GATEWAY,LTI-STUDIO-SC-EMPLOYEE-SERVICE
