@@ -24,6 +24,3 @@ zuul:
         serviceId: lti-studio-sc-employee-service
         stripPrefix: true
         sensitiveHeaders:
-   
-server:
-  port: 4000
