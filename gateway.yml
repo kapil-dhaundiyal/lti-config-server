@@ -24,7 +24,12 @@ zuul:
         serviceId: lti-studio-sc-employee-service
         stripPrefix: true
         sensitiveHeaders:
-        
+
 security:
   basic:
-    enabled: false       
+    enabled: false
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone:https://eureka-a6c8031f-03e4-4751-8486-03f658c6d68e.cfapps.io/eureka
