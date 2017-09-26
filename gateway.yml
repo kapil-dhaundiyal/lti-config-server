@@ -20,7 +20,7 @@ zuul:
 
   routes:
     lti-studio-sc-employee-service:
-        path: /lti-studio-sc-employee-service/**
+        path: /employees/**
         serviceId: lti-studio-sc-employee-service
         stripPrefix: true
         sensitiveHeaders:
